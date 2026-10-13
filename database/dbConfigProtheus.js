@@ -5,7 +5,7 @@ const config = {
   user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
   server: process.env.DB_SERVER,
-  database: process.env.DB_DATABASE_PROTHEUS || 'p11_prod',
+  database: process.env.DB_DATABASE_PROTHEUS || 'p2510',
   options: {
     encrypt: true,
     trustServerCertificate: true,
